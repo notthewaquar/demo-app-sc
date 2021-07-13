@@ -1,0 +1,188 @@
+<div class="sidebar" [ngClass]="{ close: sidebarOpen }">
+  <div class="logo-details">
+    <i class="bx bxl-c-plus-plus"></i>
+    <span class="logo_name">SRV CRM</span>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a href="#">
+        <i class="bx bx-grid-alt"></i>
+        <span class="link_name">Dashboard</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Dashboard</a></li>
+      </ul>
+    </li>
+    <li [ngClass]="{ showMenu: dropdown1 }">
+      <div class="iocn-link" (click)="dropdown1 = !dropdown1">
+        <a>
+          <i class="bx bx-collection"></i>
+          <span class="link_name">User Setting</span>
+        </a>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">User Setting</a></li>
+        <li><a href="#">Sales Executives</a></li>
+        <li><a href="#">Dealer</a></li>
+        <li><a href="#">Distributor</a></li>
+        <li><a href="#">Leads</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-pie-chart-alt-2"></i>
+        <span class="link_name">User Mapping</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">User Mapping</a></li>
+      </ul>
+    </li>
+    <li [ngClass]="{ showMenu: dropdown2 }">
+      <div class="iocn-link" (click)="dropdown2 = !dropdown2">
+        <a>
+          <i class="bx bx-book-alt"></i>
+          <span class="link_name">Product Setting</span>
+        </a>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">Product Setting</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Add Products</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-line-chart"></i>
+        <span class="link_name">Upload Payments</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Upload Payments</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-line-chart"></i>
+        <span class="link_name">Upload Products</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Upload Products</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-line-chart"></i>
+        <span class="link_name">Sale Target</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Sale Target</a></li>
+      </ul>
+    </li>
+    <li [ngClass]="{ showMenu: dropdown3 }">
+      <div class="iocn-link" (click)="dropdown3 = !dropdown3">
+        <a>
+          <i class="bx bx-plug"></i>
+          <span class="link_name">Spare Parts</span>
+        </a>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="#">Spare Parts</a></li>
+        <li><a href="#">Add Spare Part</a></li>
+        <li><a href="#">Remove Spare Part</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-compass"></i>
+        <span class="link_name">Discount and Ads</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Discount and Ads</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-history"></i>
+        <span class="link_name">Payment Status</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Payment Status</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Enquiry</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Enquiry</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Price Management</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Price Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Inventory Management</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Inventory Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Order Details</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Order Details</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">Complaints</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">Complaints</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bx-cog"></i>
+        <span class="link_name">MBM Details</span>
+      </a>
+      <ul class="sub-menu blank">
+        <li><a class="link_name" href="#">MBM Details</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="profile-details">
+        <div class="profile-content">
+          <!--<img src="image/profile.jpg" alt="profile">-->
+        </div>
+        <div class="name-job">
+          <div class="profile_name">SRV CRM</div>
+          <div class="job">Enterprise Management Software</div>
+        </div>
+        <i class="bx bx-log-out"></i>
+      </div>
+    </li>
+  </ul>
+</div>
+<section class="home-section">
+  <div class="home-content">
+    <i class="bx bx-menu" (click)="sidebarOpen = !sidebarOpen"></i>
+    <span class="text">Drop Down Sidebar</span>
+  </div>
+</section>
