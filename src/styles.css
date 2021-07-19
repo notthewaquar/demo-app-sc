@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #e4e9f7;
+  background-color: #fff;
 }
 *,
 ::after,
@@ -757,6 +757,7 @@ body {
   opacity: 0;
 }
 .mat-typography .shadow {
-  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
-  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
+  /* -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%); */
+  box-shadow: 0 6px 17px -12px #000, 0 -1px 17px -12px #000;
 }

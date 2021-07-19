@@ -1,7 +1,8 @@
 .row {
+  margin-top: 10px;
 }
 .row > div {
-  margin-top: 25px;
+  margin: 30px 0 30px;
 }
 .row > div > mat-card > div {
   align-items: center;
@@ -12,17 +13,17 @@
 }
 .icon-div {
   background: #ff5722;
-  background: linear-gradient(-45deg, #e04818, #ff5722);
+  background: linear-gradient(-45deg, #bd1414, #ff5722);
   color: #fff;
-  height: 65px;
-  width: 65px;
-  min-height: 65px;
-  min-width: 65px;
+  height: 90px;
+  width: 90px;
+  min-height: 90px;
+  min-width: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
-  border-radius: 40px;
+  font-size: 30px;
+  border-radius: 50%;
   position: absolute;
   top: 10px;
   left: 50%;
@@ -30,29 +31,31 @@
   transform: translate(-50%, -50%);
 }
 .info-card {
-  margin-top: 40px;
+  margin: 76px 0 0 !important;
 }
 .info-card h4 {
+  font-size: 24px;
 }
 .info-card h4 b {
 }
 .info-card h4 span {
 }
 .info-card h5 {
-  margin: 5px 0;
+  font-size: 24px;
+  margin: 20px 0 30px;
 }
 .info-card h5 b {
-  font-size: 18px;
   font-weight: 500;
   margin-right: 5px;
 }
 .info-card h5 span {
-  font-size: 18px;
 }
 .info-card p {
-  font-size: 10px;
-  font-weight: 700;
-  background: #f5f5f5;
-  padding: 2px 10px 0;
+  font-size: 16px;
+  background: #ff5722;
+  background: linear-gradient(-45deg, #bd1414, #ff5722);
+  padding: 10px 10px 8px;
   border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
 }
