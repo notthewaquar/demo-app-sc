@@ -1,6 +1,14 @@
-<div class="sidebar" [ngClass]="{ close: !sidebarOpen }">
+<div class="sidebar shadow" [ngClass]="{ close: !sidebarOpen }">
   <div class="logo-details">
-    <i><i class="fas fa-home"></i></i>
+    <!-- <i><i class="fas fa-home"></i></i> -->
+    <!-- <i (click)="sidebarOpen = !sidebarOpen" class="menu-btn">
+      <i style="height: 25px; width: 25px" class="fas fa-bars"></i>
+    </i> -->
+    <i
+      (click)="sidebarOpen = !sidebarOpen" 
+      [ngClass]="{ active: sidebarOpen }"
+      id="navbar-toggle"
+      ><span></span></i>
     <span class="logo_name">SRV CRM</span>
   </div>
   <ul class="nav-links">
@@ -189,12 +197,12 @@
   </ul>
 </div>
 <section class="home-section">
-  <div class="home-content">
+  <!-- <div class="home-content">
     <i (click)="sidebarOpen = !sidebarOpen" class="menu-btn">
       <i style="height: 25px; width: 25px" class="fas fa-bars"></i>
     </i>
     <span class="text">SRV CRM</span>
-  </div>
+  </div> -->
   <div class="main-content">
     <router-outlet></router-outlet>
   </div>

@@ -756,3 +756,7 @@ body {
 .op-0 {
   opacity: 0;
 }
+.mat-typography .shadow {
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%);
+}
