@@ -51,6 +51,7 @@
 .info-card h5 span {
 }
 .info-card p {
+  user-select: none;
   font-size: 16px;
   background: #ff5722;
   background: linear-gradient(-45deg, #bd1414, #ff5722);
@@ -58,4 +59,22 @@
   border-radius: 4px;
   color: #fff;
   font-weight: 500;
+}
+
+/* CHART CSS */
+.chart-div {
+  height: 50vh;
+}
+.chart-div > mat-card {
+  height: 100%;
+}
+.chart-div  .chart-title{
+  font-size: 24px;
+  font-weight: 500;
+  color: #4f4f4f;
+  /* margin-bottom: 10px; */
+}
+.chart-div > mat-card > canvas {
+  max-height: calc( 100% - 30px );
+  max-width: 100%;
 }

@@ -65,14 +65,14 @@
   background: linear-gradient(-45deg, #bd1414, #ff5722);
 }
 
-.sidebar .nav-links li .iocn-link {
+.sidebar .nav-links li .icon-link {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #212121;
 }
-.sidebar.close .nav-links li .iocn-link {
+.sidebar.close .nav-links li .icon-link {
   display: block;
 }
 .sidebar .nav-links li i {
@@ -113,7 +113,7 @@
   opacity: 0;
   pointer-events: none;
 }
-.sidebar.close .iocn-link a > .link_name {
+.sidebar.close .icon-link a > .link_name {
   opacity: 0;
 }
 .sidebar .nav-links li .sub-menu {
@@ -172,6 +172,7 @@
   padding: 3px 20px 6px 16px;
   opacity: 0;
   pointer-events: none;
+  cursor: pointer;
 }
 .sidebar .nav-links li:hover .sub-menu.blank {
   top: 50%;

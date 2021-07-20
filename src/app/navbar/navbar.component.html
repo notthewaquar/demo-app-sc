@@ -1,9 +1,5 @@
 <div class="sidebar shadow" [ngClass]="{ close: !sidebarOpen }">
   <div class="logo-details">
-    <!-- <i><i class="fas fa-home"></i></i> -->
-    <!-- <i (click)="sidebarOpen = !sidebarOpen" class="menu-btn">
-      <i style="height: 25px; width: 25px" class="fas fa-bars"></i>
-    </i> -->
     <i
       (click)="sidebarOpen = !sidebarOpen" 
       [ngClass]="{ active: sidebarOpen }"
@@ -13,16 +9,16 @@
   </div>
   <ul class="nav-links">
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-th-large"></i></i>
         <span class="link_name">Dashboard</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Dashboard</a></li>
+        <li><a class="link_name" >Dashboard</a></li>
       </ul>
     </li>
     <li [ngClass]="{ showMenu: dropdownArr[0] }">
-      <div class="iocn-link" (click)="openDropdown(0)">
+      <div class="icon-link" (click)="openDropdown(0)">
         <a>
           <i><i class="fas fa-users-cog"></i></i>
           <span class="link_name">User Setting</span>
@@ -30,24 +26,24 @@
         <i class="arrow"><i class="fas fa-chevron-right"></i></i>
       </div>
       <ul class="sub-menu">
-        <li><a class="link_name" href="#">User Setting</a></li>
-        <li><a href="#">Sales Executives</a></li>
-        <li><a href="#">Dealer</a></li>
-        <li><a href="#">Distributor</a></li>
-        <li><a href="#">Leads</a></li>
+        <li><a class="link_name" >User Setting</a></li>
+        <li><a >Sales Executives</a></li>
+        <li><a >Dealer</a></li>
+        <li><a >Distributor</a></li>
+        <li><a >Leads</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-people-arrows"></i></i>
         <span class="link_name">User Mapping</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">User Mapping</a></li>
+        <li><a class="link_name" >User Mapping</a></li>
       </ul>
     </li>
     <li [ngClass]="{ showMenu: dropdownArr[1] }">
-      <div class="iocn-link" (click)="openDropdown(1)">
+      <div class="icon-link" (click)="openDropdown(1)">
         <a>
           <i><i class="fas fa-cog"></i></i>
           <span class="link_name">Product Setting</span>
@@ -55,41 +51,41 @@
         <i class="arrow"><i class="fas fa-chevron-right"></i></i>
       </div>
       <ul class="sub-menu">
-        <li><a class="link_name" href="#">Product Setting</a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="#">Add Products</a></li>
-        <li><a href="#">Products</a></li>
+        <li><a class="link_name" >Product Setting</a></li>
+        <li><a >Category</a></li>
+        <li><a >Add Products</a></li>
+        <li><a >Products</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-money-check"></i></i>
         <span class="link_name">Upload Payments</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Upload Payments</a></li>
+        <li><a class="link_name" >Upload Payments</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-shopping-bag"></i></i>
         <span class="link_name">Upload Products</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Upload Products</a></li>
+        <li><a class="link_name" >Upload Products</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-check-double"></i></i>
         <span class="link_name">Sale Target</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Sale Target</a></li>
+        <li><a class="link_name" >Sale Target</a></li>
       </ul>
     </li>
     <li [ngClass]="{ showMenu: dropdownArr[2] }">
-      <div class="iocn-link" (click)="openDropdown(2)">
+      <div class="icon-link" (click)="openDropdown(2)">
         <a>
           <i><i class="fas fa-puzzle-piece"></i></i>
           <span class="link_name">Spare Parts</span>
@@ -97,101 +93,95 @@
         <i class="arrow"><i class="fas fa-chevron-right"></i></i>
       </div>
       <ul class="sub-menu">
-        <li><a class="link_name" href="#">Spare Parts</a></li>
-        <li><a href="#">Add Spare Part</a></li>
-        <li><a href="#">Remove Spare Part</a></li>
+        <li><a class="link_name" >Spare Parts</a></li>
+        <li><a >Add Spare Part</a></li>
+        <li><a >Remove Spare Part</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-percentage"></i></i>
         <span class="link_name">Discount and Ads</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Discount and Ads</a></li>
+        <li><a class="link_name" >Discount and Ads</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fab fa-staylinked"></i></i>
         <span class="link_name">Payment Status</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Payment Status</a></li>
+        <li><a class="link_name" >Payment Status</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-info-circle"></i></i>
         <span class="link_name">Enquiry</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Enquiry</a></li>
+        <li><a class="link_name" >Enquiry</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-cubes"></i></i>
         <span class="link_name">Price Management</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Price Management</a></li>
+        <li><a class="link_name" >Price Management</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-boxes"></i></i>
         <span class="link_name">Inventory Management</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Inventory Management</a></li>
+        <li><a class="link_name" >Inventory Management</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-server"></i></i>
         <span class="link_name">Order Details</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Order Details</a></li>
+        <li><a class="link_name" >Order Details</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-comments"></i></i>
         <span class="link_name">Complaints</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">Complaints</a></li>
+        <li><a class="link_name" >Complaints</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-th-large"></i></i>
         <span class="link_name">MBM Details</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">MBM Details</a></li>
+        <li><a class="link_name" >MBM Details</a></li>
       </ul>
     </li>
     <li>
-      <a href="#">
+      <a >
         <i><i class="fas fa-sign-out-alt"></i></i>
         <span class="link_name">LOGOUT</span>
       </a>
       <ul class="sub-menu blank shadow">
-        <li><a class="link_name" href="#">LOGOUT</a></li>
+        <li><a class="link_name" >LOGOUT</a></li>
       </ul>
     </li>
   </ul>
 </div>
 <section class="home-section">
-  <!-- <div class="home-content">
-    <i (click)="sidebarOpen = !sidebarOpen" class="menu-btn">
-      <i style="height: 25px; width: 25px" class="fas fa-bars"></i>
-    </i>
-    <span class="text">SRV CRM</span>
-  </div> -->
   <div class="main-content">
     <router-outlet></router-outlet>
   </div>
