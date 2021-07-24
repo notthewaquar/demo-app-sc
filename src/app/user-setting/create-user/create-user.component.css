@@ -1,0 +1,8 @@
+.title {
+  font-weight: 500;
+  font-size: 16px;
+}
+.title span {
+  color: #da311a;
+  font-weight: 600;
+}

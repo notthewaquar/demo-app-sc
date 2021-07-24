@@ -119,9 +119,17 @@
 .sidebar .nav-links li .sub-menu {
   padding: 6px 6px 14px 65px;
   margin-top: -10px;
+  display: none;
   background: #ff5722;
   background: linear-gradient(-45deg, #bd1414, #ff5722);
-  display: none;
+}
+.sidebar .nav-links .showMenu {
+  background: #ff5722;
+  background: linear-gradient(-45deg, #bd1414, #ff5722);
+}
+.sidebar .nav-links .showMenu i,
+.sidebar .nav-links .showMenu .link_name {
+  color: #fff !important;
 }
 .sidebar .nav-links li.showMenu .sub-menu {
   display: block;

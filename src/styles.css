@@ -761,3 +761,9 @@ body {
   box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 3px 5px rgb(0 0 0 / 10%); */
   box-shadow: 0 6px 17px -12px #000, 0 -1px 17px -12px #000;
 }
+
+.bg-accent {
+  background: #ff5722;
+  background: linear-gradient(-45deg, #bd1414, #ff5722);
+  box-shadow: -1.113px 7.922px 16px 0px rgb(245 61 61 / 52%) !important;
+}
